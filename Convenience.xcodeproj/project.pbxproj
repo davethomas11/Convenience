@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		B02EFC211C07DE35004E80C8 /* Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = B02EFC201C07DE35004E80C8 /* Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02EFC2B1C07DE5A004E80C8 /* Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC281C07DE5A004E80C8 /* Conveniences.swift */; };
+		B02EFC311C07DEE1004E80C8 /* UIColor+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC301C07DEE1004E80C8 /* UIColor+Conveniences.swift */; };
+		B02EFC331C07DF0C004E80C8 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC321C07DF0C004E80C8 /* Device.swift */; };
+		B02EFC351C07DF37004E80C8 /* UIImage+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC341C07DF37004E80C8 /* UIImage+Conveniences.swift */; };
+		B02EFC371C07DF5A004E80C8 /* UIView+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC361C07DF5A004E80C8 /* UIView+Conveniences.swift */; };
+		B02EFC391C07DF94004E80C8 /* UImageView+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC381C07DF94004E80C8 /* UImageView+Conveniences.swift */; };
+		B02EFC3B1C07E01A004E80C8 /* Optional+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC3A1C07E01A004E80C8 /* Optional+Conveniences.swift */; };
+		B02EFC3D1C07E06B004E80C8 /* String+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC3C1C07E06B004E80C8 /* String+Conveniences.swift */; };
+		B02EFC3F1C07E11C004E80C8 /* Dictionary+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC3E1C07E11C004E80C8 /* Dictionary+Conveniences.swift */; };
+		B02EFC411C08D097004E80C8 /* Number+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EFC401C08D097004E80C8 /* Number+Conveniences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B02EFC1D1C07DE35004E80C8 /* Convenience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Convenience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02EFC201C07DE35004E80C8 /* Convenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Convenience.h; sourceTree = "<group>"; };
 		B02EFC221C07DE35004E80C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02EFC281C07DE5A004E80C8 /* Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conveniences.swift; sourceTree = "<group>"; };
+		B02EFC301C07DEE1004E80C8 /* UIColor+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC321C07DF0C004E80C8 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		B02EFC341C07DF37004E80C8 /* UIImage+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC361C07DF5A004E80C8 /* UIView+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC381C07DF94004E80C8 /* UImageView+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UImageView+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC3A1C07E01A004E80C8 /* Optional+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC3C1C07E06B004E80C8 /* String+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC3E1C07E11C004E80C8 /* Dictionary+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Conveniences.swift"; sourceTree = "<group>"; };
+		B02EFC401C08D097004E80C8 /* Number+Conveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+Conveniences.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				B02EFC201C07DE35004E80C8 /* Convenience.h */,
+				B02EFC281C07DE5A004E80C8 /* Conveniences.swift */,
+				B02EFC321C07DF0C004E80C8 /* Device.swift */,
+				B02EFC3A1C07E01A004E80C8 /* Optional+Conveniences.swift */,
+				B02EFC3C1C07E06B004E80C8 /* String+Conveniences.swift */,
+				B02EFC301C07DEE1004E80C8 /* UIColor+Conveniences.swift */,
+				B02EFC401C08D097004E80C8 /* Number+Conveniences.swift */,
+				B02EFC3E1C07E11C004E80C8 /* Dictionary+Conveniences.swift */,
+				B02EFC361C07DF5A004E80C8 /* UIView+Conveniences.swift */,
+				B02EFC341C07DF37004E80C8 /* UIImage+Conveniences.swift */,
+				B02EFC381C07DF94004E80C8 /* UImageView+Conveniences.swift */,
 				B02EFC221C07DE35004E80C8 /* Info.plist */,
 			);
 			path = Convenience;
@@ -130,6 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02EFC311C07DEE1004E80C8 /* UIColor+Conveniences.swift in Sources */,
+				B02EFC3D1C07E06B004E80C8 /* String+Conveniences.swift in Sources */,
+				B02EFC411C08D097004E80C8 /* Number+Conveniences.swift in Sources */,
+				B02EFC351C07DF37004E80C8 /* UIImage+Conveniences.swift in Sources */,
+				B02EFC2B1C07DE5A004E80C8 /* Conveniences.swift in Sources */,
+				B02EFC371C07DF5A004E80C8 /* UIView+Conveniences.swift in Sources */,
+				B02EFC391C07DF94004E80C8 /* UImageView+Conveniences.swift in Sources */,
+				B02EFC331C07DF0C004E80C8 /* Device.swift in Sources */,
+				B02EFC3B1C07E01A004E80C8 /* Optional+Conveniences.swift in Sources */,
+				B02EFC3F1C07E11C004E80C8 /* Dictionary+Conveniences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
