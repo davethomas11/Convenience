@@ -55,6 +55,43 @@ public func busy(controller:UIViewController, overlayColorHexString:String="#700
     
 }
 
+func prompt(controller:UIViewController, title: String, message: String, placeHolder:String, callback: (String?)->Void) {
+    
+    var inputField:UITextField? = nil
+    
+    let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+    
+    alert.addAction(UIAlertAction(title: "DONE", style: UIAlertActionStyle.Default, handler: {
+        _ in
+        if let f = inputField, let t = f.text {
+            
+            callback(t)
+        } else {
+            
+            callback(nil)
+        }
+    }))
+    
+    
+    alert.addTextFieldWithConfigurationHandler() {
+        textfield in
+        
+        textfield.placeholder = placeHolder
+        inputField = textfield
+    }
+    
+    let presenter:UIViewController
+    
+    if (controller.navigationController != nil) {
+        presenter = controller.navigationController!
+    } else {
+        presenter = controller
+    }
+    
+    presenter.presentViewController(alert, animated: true, completion: nil)
+    
+}
+
 
 public func delay(delay:Double, closure:()->()) {
     dispatch_after(
